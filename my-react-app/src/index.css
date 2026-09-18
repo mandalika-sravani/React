@@ -26,3 +26,15 @@
   color: hsl(0, 0%, 30%);
 }
 
+.student {
+  font-family: 'Haettenschweiler';
+  font-size: 2em;
+  color: blueviolet;
+  padding: 15px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  margin: 5px;
+}
+
+.student p {
+  margin: 10px;
+}
