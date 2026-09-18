@@ -7,6 +7,7 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from './List.jsx'; */
 
 //import Button, { ProfilePicture } from "./Button/Button.jsx";
+import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
 import Mycomponent from "./onChange.jsx";
 
@@ -81,11 +82,19 @@ import Mycomponent from "./onChange.jsx";
 }*/
 
 //onChange handler code
-
-function App() {
+/*function App() {
   
   return (
     <Mycomponent />
+  );
+} */
+
+//Color Picker
+
+function App() {
+
+  return (
+    <ColorPicker />
   );
 }
 
