@@ -2,10 +2,12 @@
 import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
-import Button from "./Button/Button.jsx";
 import Student from "./Student.jsx"; 
-import UserGreeting from "./UserGreeting.jsx"; */
-import List from './List.jsx';
+import UserGreeting from "./UserGreeting.jsx"; 
+import List from './List.jsx'; */
+
+import Button, { ProfilePicture } from "./Button/Button.jsx";
+
 
 /*function App() {
 
@@ -37,7 +39,7 @@ import List from './List.jsx';
   );
 } */
 
-function App() {
+/*function App() {
 
   const fruits = [{id: 1, name: "Apple", calories: 95}, 
                     {id: 2, name: "Orange", calories: 65}, 
@@ -57,7 +59,13 @@ function App() {
                           <List items={vegetables} category = "Vegetables" />}
         </>
   );
-}
+} */
 
+function App() {
+  return(
+   /* <Button /> */
+      <ProfilePicture />
+  );
+}
 
 export default App
