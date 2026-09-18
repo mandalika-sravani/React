@@ -38,3 +38,21 @@
 .student p {
   margin: 10px;
 }
+
+.hello {
+  font-family: 'Cambria';
+  font-size: 2em;
+  color: rgb(43, 226, 205);
+  padding: 15px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  margin: 5px;
+}
+
+.log {
+  font-family: 'Cambria';
+  font-size: 2em;
+  color: rgb(43, 226, 67);
+  padding: 15px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  margin: 5px;
+}

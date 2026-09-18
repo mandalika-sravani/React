@@ -2,10 +2,11 @@
 import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
-import Button from "./Button/Button.jsx";*/
-import Student from "./Student.jsx";
+import Button from "./Button/Button.jsx";
+import Student from "./Student.jsx"; */
+import UserGreeting from "./UserGreeting.jsx";
 
-function App() {
+/*function App() {
 
   return (
     <>
@@ -20,9 +21,18 @@ function App() {
         <Card />
         <Card />
         <Footer/>
-        <Button /> */}
+        <Button /> 
     </>
     
+  );
+}*/
+
+function App() {
+
+  return (
+    <>
+      <UserGreeting isLoggedIn = {true} username = "Krishna Mohan" />
+    </>
   );
 }
 
