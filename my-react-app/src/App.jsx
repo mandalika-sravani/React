@@ -8,6 +8,7 @@ import List from './List.jsx'; */
 
 //import Button, { ProfilePicture } from "./Button/Button.jsx";
 import Counter from "./Counter_useState.jsx";
+import Mycomponent from "./onChange.jsx";
 
 
 /*function App() {
@@ -31,6 +32,7 @@ import Counter from "./Counter_useState.jsx";
   );
 }*/
 
+//Condition rendering
 /*function App() {
 
   return (
@@ -40,6 +42,7 @@ import Counter from "./Counter_useState.jsx";
   );
 } */
 
+// Lists Code
 /*function App() {
 
   const fruits = [{id: 1, name: "Apple", calories: 95}, 
@@ -62,6 +65,7 @@ import Counter from "./Counter_useState.jsx";
   );
 } */
 
+// Click event code
 /*function App() {
   return(
    /* <Button /> 
@@ -69,9 +73,19 @@ import Counter from "./Counter_useState.jsx";
   );
 }*/
 
-function App() {
+// Counter Code
+/*function App() {
   return(
     <Counter />
+  );
+}*/
+
+//onChange handler code
+
+function App() {
+  
+  return (
+    <Mycomponent />
   );
 }
 
