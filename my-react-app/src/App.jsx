@@ -6,7 +6,8 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx"; 
 import List from './List.jsx'; */
 
-import Button, { ProfilePicture } from "./Button/Button.jsx";
+//import Button, { ProfilePicture } from "./Button/Button.jsx";
+import Counter from "./Counter_useState.jsx";
 
 
 /*function App() {
@@ -61,10 +62,16 @@ import Button, { ProfilePicture } from "./Button/Button.jsx";
   );
 } */
 
+/*function App() {
+  return(
+   /* <Button /> 
+      <ProfilePicture />
+  );
+}*/
+
 function App() {
   return(
-   /* <Button /> */
-      <ProfilePicture />
+    <Counter />
   );
 }
 
