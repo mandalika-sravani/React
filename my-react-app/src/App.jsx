@@ -10,6 +10,7 @@ import List from './List.jsx'; */
 import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
 import Mycomponent from "./onChange.jsx";
+import MyObjectComponent from "./update_objects.jsx";
 import MyUpdateComponent from "./updater.jsx";
 
 
@@ -101,9 +102,16 @@ import MyUpdateComponent from "./updater.jsx";
 
 //updater function
 
-function App() {
+/*function App() {
   return(
     <MyUpdateComponent />
+  );
+} */
+
+// update Object
+function App() {
+  return(
+    <MyObjectComponent />
   );
 }
 
