@@ -10,6 +10,7 @@ import List from './List.jsx'; */
 import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
 import Mycomponent from "./onChange.jsx";
+import MyUpdateComponent from "./updater.jsx";
 
 
 /*function App() {
@@ -91,10 +92,18 @@ import Mycomponent from "./onChange.jsx";
 
 //Color Picker
 
-function App() {
+/*function App() {
 
   return (
     <ColorPicker />
+  );
+} */
+
+//updater function
+
+function App() {
+  return(
+    <MyUpdateComponent />
   );
 }
 
