@@ -1,0 +1,31 @@
+body {
+    background-image: url(abstract-grunge-world-map-background_47840-1472.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock_container {
+    backdrop-filter: blur(5px);
+    width: 100vw;
+}
+
+.clock {
+    font-family: 'Courier New';
+    font-size: 6rem;
+    color: rgb(228, 4, 4);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.1);
+}

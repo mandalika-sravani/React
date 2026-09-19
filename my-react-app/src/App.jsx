@@ -11,10 +11,12 @@ import ArrayComponent from "./Array.jsx";
 import ArrayUpdate from "./Array_Update.jsx";
 import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
+import DigitalClock from "./Digital Clock App/digital.jsx";
 import Mycomponent from "./onChange.jsx";
 import ToDoList from "./To-Do List App/to_do.jsx";
 import MyObjectComponent from "./update_objects.jsx";
 import MyUpdateComponent from "./updater.jsx";
+import EffectComponent from "./useEffect.jsx";
 
 /*function App() {
 
@@ -129,11 +131,23 @@ import MyUpdateComponent from "./updater.jsx";
 } */
 
 //To-Do List App
-function App() {
+/*function App() {
 
   return(
     <ToDoList />
   );
+} */
+
+//useEffect()
+/*function App() {
+  return(
+    <EffectComponent />
+  );
+}*/
+
+//Digital Clock App
+function App() {
+  return( <DigitalClock />);
 }
 
 export default App
