@@ -7,12 +7,13 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from './List.jsx'; */
 
 //import Button, { ProfilePicture } from "./Button/Button.jsx";
+import ArrayComponent from "./Array.jsx";
+import ArrayUpdate from "./Array_Update.jsx";
 import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
 import Mycomponent from "./onChange.jsx";
 import MyObjectComponent from "./update_objects.jsx";
 import MyUpdateComponent from "./updater.jsx";
-
 
 /*function App() {
 
@@ -92,7 +93,6 @@ import MyUpdateComponent from "./updater.jsx";
 } */
 
 //Color Picker
-
 /*function App() {
 
   return (
@@ -101,7 +101,6 @@ import MyUpdateComponent from "./updater.jsx";
 } */
 
 //updater function
-
 /*function App() {
   return(
     <MyUpdateComponent />
@@ -109,9 +108,22 @@ import MyUpdateComponent from "./updater.jsx";
 } */
 
 // update Object
-function App() {
+/*function App() {
   return(
     <MyObjectComponent />
+  );
+} */
+
+/*function App() {
+  return(
+    <ArrayComponent />
+  );
+} */
+
+//Array Update
+function App() {
+  return(
+    <ArrayUpdate />
   );
 }
 
