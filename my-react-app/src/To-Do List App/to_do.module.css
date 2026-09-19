@@ -1,0 +1,55 @@
+.to_do_list {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.input {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: aqua;
+    border: 3px solid;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+    transition: background-color 0.5s ease;
+}
+
+.add-button {
+    background-color: hsl(125, 47%, 54%);
+}
+
+.add-button:hover {
+    background-color: hsl(125, 47%, 44%);
+}
+
+.delete-button {
+    background-color: hsl(10, 90%, 50%);
+}
+
+.delete-button:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+.move-button {
+    background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover {
+    background-color: hsl(207, 90%, 54%);
+}

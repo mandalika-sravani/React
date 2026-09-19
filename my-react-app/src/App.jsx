@@ -12,6 +12,7 @@ import ArrayUpdate from "./Array_Update.jsx";
 import ColorPicker from "./Color Picker/color_picker.jsx";
 import Counter from "./Counter_useState.jsx";
 import Mycomponent from "./onChange.jsx";
+import ToDoList from "./To-Do List App/to_do.jsx";
 import MyObjectComponent from "./update_objects.jsx";
 import MyUpdateComponent from "./updater.jsx";
 
@@ -121,9 +122,17 @@ import MyUpdateComponent from "./updater.jsx";
 } */
 
 //Array Update
-function App() {
+/*function App() {
   return(
     <ArrayUpdate />
+  );
+} */
+
+//To-Do List App
+function App() {
+
+  return(
+    <ToDoList />
   );
 }
 
