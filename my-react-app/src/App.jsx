@@ -18,6 +18,7 @@ import MyObjectComponent from "./update_objects.jsx";
 import MyUpdateComponent from "./updater.jsx"; 
 import ComponentA from "./useContext()/ComponentA"; */
 
+import Stopwatch from "./Stopwatch/Stopwatch";
 import Component from "./useRef()/Component";
 
 
@@ -162,9 +163,16 @@ import Component from "./useRef()/Component";
 } */
 
 // useRef() code
-function App() {
+/*function App() {
   return(
     <Component />
+  ); 
+} */
+
+// Stopwatch App
+function App() {
+  return(
+    <Stopwatch />
   );
 }
 

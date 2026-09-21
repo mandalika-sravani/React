@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 60px;
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    color: rgb(6, 52, 188);
+    text-shadow: 2px 2px 2px hsla(209, 20%, 66%, 0.508);
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.start {
+    background-color: rgb(5, 161, 26);
+}
+
+.start:hover {
+    background-color: rgb(11, 217, 39);
+}
+
+.start:active {
+    background-color: rgb(12, 79, 21);
+}
+
+.stop {
+    background-color: rgb(235, 8, 8);
+}
+
+.stop:hover {
+    background-color: rgb(198, 91, 91);
+}
+
+.stop:active {
+    background-color: rgb(111, 10, 10);
+}
+
+.reset {
+    background-color: rgb(245, 166, 20);
+}
+
+.reset:hover {
+    background-color: rgb(210, 163, 76);
+}
+
+.reset:active {
+    background-color: rgb(119, 86, 23);
+}
