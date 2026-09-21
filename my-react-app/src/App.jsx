@@ -15,9 +15,10 @@ import DigitalClock from "./Digital Clock App/digital.jsx";
 import Mycomponent from "./onChange.jsx";
 import ToDoList from "./To-Do List App/to_do.jsx";
 import MyObjectComponent from "./update_objects.jsx";
-import MyUpdateComponent from "./updater.jsx"; */
+import MyUpdateComponent from "./updater.jsx"; 
+import ComponentA from "./useContext()/ComponentA"; */
 
-import ComponentA from "./useContext()/ComponentA";
+import Component from "./useRef()/Component";
 
 
 
@@ -153,10 +154,17 @@ import ComponentA from "./useContext()/ComponentA";
   return( <DigitalClock />);
 } */
 
-//useContent() code
-function App() {
+//useContext() code
+/*function App() {
   return(
     <ComponentA />
+  );
+} */
+
+// useRef() code
+function App() {
+  return(
+    <Component />
   );
 }
 
