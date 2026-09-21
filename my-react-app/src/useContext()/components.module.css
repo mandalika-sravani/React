@@ -1,0 +1,16 @@
+.box {
+    border: 3px solid;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Gill Sans MT';
+    font-size: 2em;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: 'Gill Sans';
+    font-size: 1.5em;
+    color: rgb(2, 102, 135);
+}
